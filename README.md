@@ -117,7 +117,7 @@ We will create a central server to handle our Git operations and frontend builds
     sudo apt install git
 
     # Install AWS CLI
-    sudo "apt-get install" -y awscli
+    curl -fsSL https://amazonaws.com | bash -s -- --system
 
     # Install Zip/Unzip
     sudo apt install zip unzip
